@@ -1,0 +1,156 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+}
+header{
+    padding-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+header>img{
+    float: left;
+    width: 6rem;
+    margin-top: -0.5rem;
+}
+header>button{
+    float: right;
+    background-color: red;
+    color: white;
+    font-size: 0.7rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.2rem;
+    border: none;
+}
+.sec1{
+    padding-top: 5rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 4rem;
+}
+input{
+    /* width: 100%; */
+    padding-top: 0.6rem;
+    padding-bottom: 0.6rem;
+    margin-bottom: 1rem;
+    color: rgb(199, 197, 197);
+    background-color: rgb(32, 32, 32);
+    border: 0.1rem solid rgb(105, 105, 105);
+}
+button{
+    background-color: red;
+    color: white;
+    padding: 0.6rem;
+    font-size: 0.7rem;
+    border: none;
+}
+.bg{
+    background-image: url(netflix-bg.jpg);
+    
+}
+hr{
+    margin: 0px;
+    border: 0.13rem solid rgb(43, 42, 42);
+}
+.sec2{
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.sec2>img{
+    width: 100%;
+}
+.faq{
+    padding: 1rem 1rem 1.7rem 1rem;
+    background-color: rgb(73, 73, 73);
+    font-weight: 100;
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+.faq>h6{
+    float: left;
+    display: inline-block;
+    margin: 0px;
+}
+.faq>h4{
+    float: right;
+    display: inline-block;
+    margin: 0px;
+}
+footer{
+    /* display: flex;
+    flex-wrap: wrap;
+    gap: 1rem; */
+    /* justify-content: space-around; */
+    padding: 1rem;
+    color: rgb(70, 70, 70);
+}
+footer>a{
+    color: rgb(70, 70, 70);
+    margin-right: 4rem;
+}
+select{
+    display: block;
+    margin-top: 1rem;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    padding: 0.4rem;
+}
+
+@media screen and (min-width: 950px){
+    h3{
+        font-size: 2.5rem;
+    }
+    h4{
+        font-size: 4rem;
+        font-weight: 10;
+    }
+    h5{
+        font-size: 1.7rem;
+    }
+    h6{
+        font-size: 3rem;
+        font-weight: 10;
+    }
+    p{
+        font-size: 1.4rem;
+    }
+    input{
+        width: 20rem;
+    }
+    .sec2{
+        display: flex;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    .text{
+        margin-top: auto;
+        margin-bottom: auto;
+        text-align: left;
+    }
+    .sec3>.text{
+        order: 1;
+    }
+    .sec4{
+        width: 40%;
+        text-align: left;
+    }
+    .sec5>.text{
+        order: 1;
+    }
+    .sec6{
+        display: block;
+        text-align: center;
+    }
+    .faq{
+        height: 3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+}
